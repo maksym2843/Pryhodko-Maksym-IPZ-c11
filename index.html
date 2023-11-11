@@ -1,123 +1,393 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="uk">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web studio</title>
     <link rel="stylesheet" href="/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  </head>
-  <body>
-    <!-- Навігаційне меню -->
-    <header>
-      <a href="index.html" class="logo"><span class="accent-text-logo">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="nav_list">
-          <li><a class="navigate-active" href="index.html">Студія</a></li>
-          <li><a class="navigate" href="index.html">Портфоліо</a></li>
-          <li><a class="navigate" href="#">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="contact_list">
-        <li><a class="contact head" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact head" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <title>Web Studio</title>  
+</head>
+<body>
+    <header class="header_style">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo_first">Web</span><span class="logo_second">Studio</span>
+            </a>
+            <nav>
+                <ul class="header_left_button_list">
+                    <li><a class="header_button_left_active" href="index.html">Студія</a></li>
+                    <li><a class="header_button_left" href="portfolio.html">Портфоліо</a></li>
+                    <li><a class="header_button_left" href="#">Контакт</a></li>
+                </ul>
+            </nav>
+            <ul class="header_right_button_list">
+                <li>
+                    <a class="header_button_right" href="mailto:info@devstudio.com">
+                        <svg class="header_icon" width="16" height="16"> 
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li>
+                    <a class="header_button_right" href="tel:+380961111111">
+                        <svg class="header_icon" width="16", height="16">
+                            
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
-    <!-- Головна сторінка -->
     <main>
-      <!-- Секція з гаслом і копкою -->
-      <section class="hero">
-        <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
-        <button class="btn-order" type="button">Замовити послугу</button>
-      </section>
-      <!-- Секція з основними акцентами роботи -->
-      <section class="features">
-        <ul class="features_list">
-          <li>
-            <h3 class="feature-title">Увага до деталей</h3>
-            <p class="feature-description">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="feature-title">Пунктуальність</h3>
-            <p class="feature-description">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="feature-title">Планування</h3>
-            <p class="feature-description">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="feature-title">Сучасні технології</h3>
-            <p class="feature-description">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!-- Секція із зображеннь -->
-      <section class="todo">
-        <h2 class="todo_title">Чим ми займаємося</h2>
-        <ul class="pic_list">
-          <li>
-            <img src="/10.jpg" alt="Програмування" width="370">
-          </li>
-          <li>
-            <img
-              src="/20.jpg"
-              alt="Мобільне програмування"
-              width="370"
-            >
-          </li>
-          <li>
-            <img src="/30.jpg" alt="Графічний дизайн" width="370">
-          </li>
-        </ul>
-      </section>
-      <section class="team">
-        <!-- Секція з описом нашої команди -->
-        <h2 class="team_title">Наша команда</h2>
-        <ul class="team_list">
-          <li>
-            <img src="/1.jpg" alt="Ігор Дем'яненко" width="270">
-            <h3 class="member title">Ігор Дем'яненко</h3>
-            <p class="member description">Product Designer</p>
-          </li>
-          <li>
-            <img src="/2.jpg" alt="Ольга Рєпіна" width="270">
-            <h3 class="member title">Ольга Рєпіна</h3>
-            <p class="member description">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="/3.jpg" alt="Микола Тарасов" width="270">
-            <h3 class="member title">Микола Тарасов</h3>
-            <p class="member description">Marketing</p>
-          </li>
-          <li>
-            <img src="/4.jpg" alt="Михайло Єрмаков" width="270">
-            <h3 class="member title">Михайло Єрмаков</h3>
-            <p class="member description">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+        <section class="section_main">
+            <div class="container">
+                <h1>Ефективні рішення для вашого бізнесу</h1>
+                <button type="button" class="main_page_button" data-modal-open>Замовити послугу</button>
+            </div>
+        </section>
+        <section class="section_us_plus">
+            <div class="container">
+                <ul class="list_us_plus">
+                    <li>
+                        <div class="us_plus_logo_box">
+                            <svg class="us_plus_logo" width="70" height="70">
+                                <use href="/antenna.svg">
+                            </svg>
+                        </div>
+                        <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                    <li>
+                         <div class="us_plus_logo_box">
+                            <svg class="us_plus_logo" width="70" height="70">
+                                <use href="/clock.svg">
+                            </svg>
+                        </div>
+                        <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                        <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </li>
+                    <li>
+                         <div class="us_plus_logo_box">
+                            <svg class="us_plus_logo" width="70" height="70">
+                                <use href="/diagram .svg">
+                            </svg>
+                        </div>
+                        <h3>ПЛАНУВАННЯ</h3>
+                        <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                    <li>
+                        <div class="us_plus_logo_box">
+                            <svg class="us_plus_logo" width="70" height="70">
+                                <use href="/diagram .svg">
+                            </svg>
+                        </div>
+                        <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_work">
+            <div class="container">
+                <h2>Чим ми займаємося</h2>
+                <ul>
+                    <li class="work_card">
+                        <img class="work_img" src="/10.jpg" alt="Набираєм текст" width="370" height="100%">
+                        <div class="work_overlay_text">
+                            Десктопні додатки
+                        </div>
+                    </li>
+                    <li class="work_card">
+                        <img src="/20.jpg" alt="Дивимось в телефон" width="370" height="100%">
+                        <div class="work_overlay_text">
+                            Мобільні додатки
+                        </div>
+                    </li>
+                    <li class="work_card">
+                        <img src="/30.jpg" alt="Знаєм кольори" width="370" height="100%">
+                        <div class="work_overlay_text">
+                            Дизайнерські рішення
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_worker">
+            <div class="container">
+                <h2>Наша команда</h2>
+                <ul class="worker_list">
+                    <li>
+                        <div class="worker_card">
+                            <img src="/1.jpg" alt="Ігор Дем'яненко " width="270" height="260">
+                            <div class="worker_info">
+                                <h3>Ігор Дем'яненко</h3>
+                                <p>Product Designer</p>
+                                <ul class="social_link_list">
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com"  rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="worker_card">
+                            <img src="/2.jpg" alt="Ольга Рєпіна" width="270" height="260">
+                            <div class="worker_info">
+                                <h3>Ольга Рєпіна</h3>
+                                <p>Frontend Developer</p>
+                                <ul class="social_link_list">
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com"  rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="worker_card">
+                            <img src="/3.jpg" alt="Микола Тарасов" width="270" height="260">
+                            <div class="worker_info">
+                                <h3>Микола Тарасов</h3>
+                                <p>Marketing</p>
+                                <ul class="social_link_list">
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com"  rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>    
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="worker_card">
+                            <img src="/4.jpg" alt="Михайло Єрмаков" width="270" height="260">
+                            <div class="worker_info">
+                                <h3>Михайло Єрмаков</h3>
+                                <p>UI Designer</p>
+                                <ul class="social_link_list">
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com" rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social_list_item">
+                                        <a href="https://instagram.com"  rel="nofollow">
+                                            <svg class="icon_social" width="20" height="20">
+                                                
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="regular_customers_section">
+            <div class="container">
+                <h2>Постійні клієнти</h2>
+                <ul class="logo_client_list">
+                    <li class="logo_client_card">
+                        <a href="#">
+                            <svg class="client_logo" width="106" height="60">
+                                <use href="/сlient-1.svg">
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo_client_card">
+                        <a href="#">
+                            <svg class="client_logo" width="106" height="60">
+                                <use href="/сlient-2.svg">
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo_client_card">
+                        <a href="#">
+                            <svg class="client_logo"  width="106" height="60">
+                                <use href="/сlient-3.svg">
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo_client_card">
+                        <a href="#">
+                            <svg class="client_logo"  width="106" height="60">
+                                <use href="/сlient-4.svg">
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo_client_card">
+                        <a href="#">
+                            <svg class="client_logo"  width="106" height="60">
+                                <use href="/сlient-5.svg">
+                             </svg>
+                        </a>
+                    </li>
+                    <li class="logo_client_card">
+                        <a href="#">
+                            <svg class="client_logo"  width="106" height="60">
+                                <use href="/сlient-6.svg">
+                             </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <!-- Контактна інформація -->
-    <footer class="sitefoot">
-      <a href="index.html" class="logo white"><span class="accent-text-logo">Web</span>Studio</a>
-      <address class="address_footer">
-        <p class="addr">м. Київ, пр-т Лесі Українки, 26</p>
-        <a class="contact foot" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact foot" href="tel:+380961111111">+38 096 111 11 11</a>
-      </address>
+    <footer class="footer_page">
+        <div class="container">
+            <div class="footer_box_first">
+                <a href="index.html" class="logo">
+                    <span class="logo_first">Web</span><span class="logo_second_footer">Studio</span>
+                </a>
+                <address>
+                    <ul>
+                        <li><a class="footer_address_link" rel="nofollow" href="https://goo.gl/maps/qWS8BV7t2WGqXTAa9">м. Київ, пр-т Лесі Українки, 26</a></li>
+                        <li><a class="footer_mailtel_link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="footer_mailtel_link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer_box_second">
+            <p>Приєднуйтесь</p>
+            <ul class="footer_social_list">
+                <li class="footer_social">
+                    <a href="https://instagram.com" class="footer_icon_link" rel="nofollow">
+                        <svg class="footer_icon" width="20" height="20">
+                            
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer_social">
+                    <a href="https://www.facebook.com" class="footer_icon_link" rel="nofollow">
+                        <svg class="footer_icon" width="20" height="20">
+                            
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer_social">
+                    <a href="https://www.facebook.com" class="footer_icon_link" rel="nofollow">
+                        <svg class="footer_icon" width="20" height="20">
+                            
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer_social">
+                    <a href="https://www.linkedin.com" class="footer_icon_link" rel="nofollow">
+                        <svg class="footer_icon" width="20" height="20">
+                            
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
     </footer>
-  </body>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal_window">
+            <button type="button" class="close_modal_button" data-modal-close>
+                <svg class="icon_modal">
+                    
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="/modal.js"></script>
+</body>
 </html>
