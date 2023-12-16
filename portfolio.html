@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style_old.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
@@ -231,8 +233,23 @@
                     </a>
                 </li>
             </ul>
+            <div class="footer__inner">
+              <p class="footer__title">Підпішіться на розилку</p>
+              <form class="footer__form">
+                  <input type="email" class="footer__input" required placeholder="E-mail">
+                  <button type="submit" class="footer__button">
+                      Підписатися
+                      <svg class="button__icon" width="25" height="24">
+                          <use href="./images/svg/icons.svg#telegram">
+                      </svg>
+                  </button>
+              </form>
+          </div>
         </div>
         </div>
     </footer>
+    <script src="/filter.js"></script>
+    <script src="/modal.js"></script>
+    <script src="/nav.js"></script>
   </body>
 </html>
